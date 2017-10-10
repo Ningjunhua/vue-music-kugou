@@ -1,15 +1,19 @@
 
-
-Vue-music-kogou
+ 
+#Vue-music-kogou#
 ===================================
-
-vuejs仿写酷狗音乐webap
+ 
+##vuejs仿写酷狗音乐webap##
 ----------------------------
-由于接口跨域，所以可下载到本地开发模式下预览
-
-项目截图：
 
 
+####项目截图：####
+
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/1.png)
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/2.png)
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/3.png)
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/4.png)
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/5.png)
 
 
 
@@ -18,8 +22,17 @@ vuejs仿写酷狗音乐webap
 
 
 
-如何使用
+如何使用：
 
-下载本项目到本地
-npm install 安装依赖
-npm run dev 启动本地开发
+克隆项目到本地 
+```
+git clone https://github.com/Ningjunhua/vue-music-kugou.git
+```
+安装依赖
+```
+npm install 
+```
+启动本地开发
+```
+npm run dev 
+```
