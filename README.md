@@ -1,16 +1,22 @@
-FOLLOW A KUGOU
 
+Â 
 Vue-music-kogou
 ===================================
-
-vuejs·ÂĞ´¿á¹·ÒôÀÖwebap
-===================================
-
-ÓÉÓÚ½Ó¿Ú¿çÓò£¬ËùÒÔ¿ÉÏÂÔØµ½±¾µØ¿ª·¢Ä£Ê½ÏÂÔ¤ÀÀ
-
-ÏîÄ¿½ØÍ¼£º
+   vuejsä»¿å†™é…·ç‹—éŸ³ä¹webap
+----------------------------
 
 
+   é¡¹ç›®æˆªå›¾ï¼š
+
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/1.png)
+
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/2.png)
+
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/3.png)
+
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/4.png)
+
+![github](https://github.com/Ningjunhua/vue-music-kugou/blob/master/src/assets/5.png)
 
 
 
@@ -19,8 +25,17 @@ vuejs·ÂĞ´¿á¹·ÒôÀÖwebap
 
 
 
-ÈçºÎÊ¹ÓÃ
+å¦‚ä½•ä½¿ç”¨ï¼š
 
-ÏÂÔØ±¾ÏîÄ¿µ½±¾µØ
-npm install °²×°ÒÀÀµ
-npm run dev Æô¶¯±¾µØ¿ª·¢
+å…‹éš†é¡¹ç›®åˆ°æœ¬åœ° 
+```
+git clone https://github.com/Ningjunhua/vue-music-kugou.git
+```
+å®‰è£…ä¾èµ–
+```
+npm install 
+```
+å¯åŠ¨æœ¬åœ°å¼€å‘
+```
+npm run dev 
+```
