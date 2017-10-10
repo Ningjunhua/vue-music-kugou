@@ -4,6 +4,7 @@
 		         :label="String(item.playcount)" :to="`/plist/info/${item.specialid}`" :key="index">
 			<img slot="icon" :src="item.imgurl.replace('{size}', '400')" width="60" height="60">
 		</mt-cell>
+		<div class="rank-info-list"></div>
 	</div>
 </template>
 

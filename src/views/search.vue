@@ -11,16 +11,20 @@
 
     <div class="search-list" v-show="togglePanel">
       <div class="search-list-title">热门搜索</div>
-      <mt-cell v-for="(item,index) in hotList" :title="item.keyword" @click.native=" replaceInput(index)" :key="index"></mt-cell>
-       <!-- <div class="hot-search" v-for="(item,index) in hotList" @click.native="replaceInput(index)" :key="index">{{item.keyword}}</div> -->
-    </div>
+       <mt-cell v-for="(item,index) in hotList" :title="item.keyword" @click.native=" replaceInput(index)" :key="index"></mt-cell>
+      <div class="rank-info-list"></div>
+   </div>
 
     <div class="songs-list" v-show="!togglePanel">
       <div class="search-total">
         共有{{total}}条结果
       </div>
-      <mt-cell v-for="(item,index) in songList" :title="item.filename" @click.native="playAudio(index)" :key="index">
+       <mt-cell v-for="(item,index) in songList" :title="item.filename" @click.native="playAudio(index)" :key="index">
       </mt-cell>
+      <div class="rank-info-list">
+       
+      </div>
+      
     </div>
   </div>
 </template>

@@ -8,8 +8,9 @@
 			</mt-swipe-item>
 		</mt-swipe>
 		
-		<mt-cell v-for="(song, index) in songList" :title="song.filename" @click.native="playAudio(index)" :key="index">
-		</mt-cell>
+			<mt-cell v-for="(song, index) in songList" :title="song.filename" @click.native="playAudio(index)" :key="index"></mt-cell>
+	 <div class="rank-info-list"></div>
+		
 	</div>
 </template>
 

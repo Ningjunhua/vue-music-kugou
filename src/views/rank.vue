@@ -3,6 +3,7 @@
 		<mt-cell v-for="(item,index) in songList" :title="item.rankname" :to="`/rank/info/${item.rankid}`" is-link :key="index">
 			<img slot="icon" :src="item.imgurl.replace('{size}', '400')" width="60" height="60">
 		</mt-cell>
+		<div class="rank-info-list"></div>
 	</div>
 </template>
 

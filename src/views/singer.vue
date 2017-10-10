@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container" style="margin-bottom:64px">
 		<div class="cell-group">
 			<div class="cell-item" @click="goRouter(88)">热门歌手</div>
 		</div>
@@ -18,7 +18,9 @@
 			<div class="cell-item" @click="goRouter(8)">欧美女歌手</div>
 			<div class="cell-item" @click="goRouter(9)">欧美组合</div>
 		</div>
+		
 	</div>
+	
 </template>
 <script>
 	export default {
