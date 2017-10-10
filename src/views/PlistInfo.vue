@@ -10,8 +10,9 @@
 			<img src="../assets/images/open_icon.png" alt="" @click="toggleDesp" class="plist-desp-icon" v-else>
 		</div>
 		<div class="plist-desp-bottom" style="width: 100%;height: 5px;background-color: #f1f1f1"></div>
+     <div class="rank-info-list">
 		  <mt-cell v-for="(item,index) in songList" :title="item.filename" @click.native="playAudio(index)" :key="index"></mt-cell>
-      <div class="rank-info-list"></div>
+     </div>
 	</div>
 </template>
 
