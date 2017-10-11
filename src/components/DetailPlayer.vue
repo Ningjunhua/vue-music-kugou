@@ -12,7 +12,7 @@
         <img :src="audio.imgUrl">
       </div>
       <div class="detail_player-lrc">
-        <div class="lrc-content" :style="{marginTop: lrcOffset + 'px',color:red }">
+        <div class="lrc-content" :style="{marginTop: lrcOffset + 'px' }">
           <p v-for="(item,index) in songLrc":class="{isCurrentLrc:item.seconds >= audio.currentLength}">
             {{item.lrcContent}}</p>
         </div>
@@ -83,7 +83,7 @@
       },
       lrcOffset(){
         if (this.songLrc) {
-          var offset = (this.songLrc.length - document.querySelectorAll('.isCurrentLrc').length - 2) * (-20)
+          var offset = (this.songLrc.length - document.querySelectorAll('.isCurrentLrc').length - 3) * (-16)
 
           return this.audio.currentLength + offset - this.audio.currentLength
         }
@@ -122,5 +122,12 @@
 <style>
 .mt-range-progress{
   background-color:#a61c00;
+}
+.lrc-content{
+  color: #d1c90e;
+}
+.isCurrentLrc{
+ 
+  color: white;
 }
 </style>
